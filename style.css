@@ -1,0 +1,21 @@
+h3
+{
+  font-size: 25px !important;
+}
+canvas {
+  border:2px dashed black;
+  animation-name: shadow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+.btn-danger:hover {
+  background-color: rgb(53, 251, 46);
+  color: rgb(50, 42, 165);
+}
+@keyframes shadow{
+  from{box-shadow: 2px 2px 30px rgb(45, 255, 87);}
+  to{box-shadow: 2px 2px 30px rgb(183, 251, 37);}
+}
+body{
+  background-color: rgb(42, 159, 165);
+}
